@@ -1,0 +1,13 @@
+当给select 框 自定义右边下拉箭头时  给下拉箭头 style="pointer-events:none" 这个样式 则忽略点击事件 点击小箭头的时候则可触发下拉框的changge事件；
+.icon-xiala{
+		pointer-events: none;
+	}
+	.icon-xiala:before{
+	    position: absolute;
+	    right: 7px;
+	    top: 17px;
+	    content: "\e621";
+	}
+<select id="selectType" style="width:40%; float:right; margin:0;padding: 0; padding-right:14px;">
+</select>
+<i class="iconfont icon-xiala"></i>
