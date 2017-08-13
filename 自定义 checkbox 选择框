@@ -1,0 +1,31 @@
+<style>
+input[type='checkbox']{
+ 	display:none;
+}
+input[type='checkbox'] + label{
+    background-color: white;
+    border-radius: 5px;
+    border:1px solid #d3d3d3;
+    width:20px;
+    height:20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    margin-top:9px;
+}
+input[type='checkbox']:checked + label{
+    color: #EA4F16;
+    border: 1px solid #EA4F16;
+}
+input[type='checkbox']:checked + label:after{
+    content:"\2714";
+}
+</style>
+
+
+<span style="margin-left:10%;">
+  <input type="checkbox" class="checkbox">
+  <label></label>
+</span>
+
