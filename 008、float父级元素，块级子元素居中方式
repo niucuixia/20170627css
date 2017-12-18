@@ -1,0 +1,36 @@
+//将父元素定义宽度 {float:left; width:75%; text-align:center;}
+//子元素设置为行内元素{dispaly: inline-block;}
+
+<div class="xlk-nav">  
+    <div style="display: inline-block;">  
+        <div class="xlk-menu">菜单标题</div>  
+        <div class="xlk-menu">菜单标题菜单标题</div>  
+        <div class="xlk-menu">菜单标题</div>  
+        <div class="xlk-menu">菜单标题</div>  
+        <div class="xlk-menu">菜单标题</div>  
+        <div class="xlk-menu">菜单标题</div>  
+    </div>  
+</div> 
+
+* {  
+    padding: 0px;  
+    margin: 0px;  
+}  
+  
+.xlk-nav {  
+    width: 100%;  
+    height: 40px;  
+    background-color: #002B57;  
+    text-align: center;  
+}  
+  
+.xlk-menu {  
+    height: 100%;  
+    float: left;  
+    background-color: black;  
+    line-height: 40px;  
+    color: white;  
+    padding: 0 20px;  
+    margin-right: 20px;  
+      
+}  
