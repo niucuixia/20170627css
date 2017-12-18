@@ -1,0 +1,54 @@
+input[type=checkbox]{
+	-webkit-appearance: none;
+    background-color: transparent;
+    border: 0;
+    outline: 0!important;
+}
+input[type=checkbox]:before {
+    content: "\e411";
+}
+input[type=checkbox]:checked:before{
+	content: "\e441";
+	color:#EA4F16;
+	
+}
+input[type=checkbox]:before{
+    font-family: Muiicons;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    color: #aaa;
+    text-decoration: none;
+    background: 0 0;
+    border-radius: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+<span style="display: inline-block; width:22%;">
+  <input type="checkbox">
+  <label class="color2">休假</label>
+</span>
+
+
+
+//下拉框
+
+.icon-xiala{
+	pointer-events: none;
+}
+.icon-xiala:before{
+    position: absolute;
+    left: 20%;
+    top: 8px;
+    content: "\e621";
+    color: #EA4F16;
+    background-color: #fff;
+}
+
+<select class="mui-pull-left" id="departments" style="width:18%; margin-bottom:0; margin-top:12px; padding:0; border-radius:0;" class="font-color">
+  <option value="0">前厅部</option>
+  <option value="1">后厨部</option>
+</select>
+<i class="iconfont icon-xiala"></i>
