@@ -10,3 +10,7 @@
 :-ms-input-placeholder { /* Internet Explorer 10+ */
   color: #6C7C93;
 }
+
+
+
+box-shadow: none; //解决火狐浏览器 输入小数后红色边框问题
